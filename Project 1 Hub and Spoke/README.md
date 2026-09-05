@@ -41,7 +41,7 @@ Because the VM has no public IP, traditional SSH over the internet is impossible
 ### Step 6: Successful Secure Connection
 Using Bastion, I successfully established a secure SSH session into the isolated Spoke VM directly through the Azure Portal, proving the architecture works exactly as intended.
 
-![Ubuntu CLI via Bastion](./Screenshot_122442.png)
+![Ubuntu CLI via Bastion](./Screenshot 2026-08-28 122442.png)
 
 ## 💡 Key Takeaways
 This project demonstrated how to build a scalable, enterprise-grade network foundation. By utilizing a Hub and Spoke model with Azure Bastion, I successfully eliminated the need for exposed public IP addresses and open management ports, drastically reducing the environment's attack surface.
