@@ -17,7 +17,7 @@ Once an Active Directory Domain Controller is established, both client endpoints
 #### Step 1: Workstation Authentication
 After binding the client machine to the `adlab.com` domain, I initiated a sign-in session on the `Worker1` endpoint to confirm credentials and initialize the domain profile.
 
-![Workstation Login](./Screenshot_163353.jpg)
+![Workstation Login](./Screenshot_163353.png)
 
 #### Step 2: Domain Directory Verification
 From the Domain Controller's Server Manager, I opened **Active Directory Users and Computers (ADUC)**. Navigating to the `adlab.com` > `Computers` container, I verified that `Worker1` was registered as a recognized domain member object.
@@ -34,7 +34,7 @@ I provisioned a new Windows Server VM, joined it to the `adlab.com` domain, and 
 #### Step 4: Local IIS Verification
 After installing the IIS role, I opened a web browser directly on the server and navigated to `localhost`. The default IIS welcome page confirmed the web service was successfully running locally.
 
-![IIS Localhost Verification](./Screenshot_102840.jpg)
+![IIS Localhost Verification](./Screenshot_102840.png)
 
 #### Step 5: Network Access Verification
 To prove the web server was successfully serving traffic to the rest of the internal network, I accessed the server's private IP address from a different machine. The successful page load confirmed proper network routing and firewall configuration.
