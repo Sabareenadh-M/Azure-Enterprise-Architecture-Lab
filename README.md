@@ -7,7 +7,7 @@ A collection of Azure architecture and infrastructure labs documenting my ongoin
 
 ## Overview
 
-This repository showcases practical Azure work across networking, identity, and hybrid cloud scenarios. Each project includes implementation details, screenshots, and key takeaways.
+This repository showcases practical Azure work across networking, identity, load balancing, and hybrid cloud scenarios. Each project includes implementation details, screenshots, and key takeaways.
 
 ## Projects
 
@@ -15,6 +15,7 @@ This repository showcases practical Azure work across networking, identity, and 
 - **Project 2: Active Directory in Azure** — Windows Server, AD DS, DNS, and identity management
 - **Project 3: Workstations and Web Servers** — domain join, ADUC, and IIS deployment
 - **Project 4: Hybrid Cloud Integration** — enterprise connectivity and hybrid architecture concepts
+- **Project 5: Web Server Load Balancing** — load balancing for web workloads and availability concepts
 
 ## Purpose
 
@@ -29,6 +30,7 @@ This repository is used to:
 - `Project-2-Creating-AD-in-a-VM/`
 - `Project-3-Workstations-and-Web-Servers/`
 - `Project-4-Hybrid-Cloud-Integration/`
+- `Project-5-Web-Server-Load-Balancing/`
 
 ## Notes
 
